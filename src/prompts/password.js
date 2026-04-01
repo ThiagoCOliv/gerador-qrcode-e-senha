@@ -3,8 +3,8 @@ const promptPassword = [
       name: "length",
       description: "Digite o comprimento da senha",
       required: true,
-      pattern: /^[4-9]\d*$/,
-      message: "Digite um número inteiro positivo",
+      pattern: /\b([4-9]|1[0-2])\b/,
+      message: "Digite um número inteiro positivo maior ou igual a 4 e menor ou igual a 12",
     },
     {
       name: "type",
