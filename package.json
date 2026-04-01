@@ -1,0 +1,25 @@
+{
+  "name": "gerador-qrcode-e-senha",
+  "version": "1.0.0",
+  "description": "Gerador de QRCode e Senha com node",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoCOliv/gerador-qrcode-e-senha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ThiagoCOliv/gerador-qrcode-e-senha/issues"
+  },
+  "homepage": "https://github.com/ThiagoCOliv/gerador-qrcode-e-senha#readme",
+  "dependencies": {
+    "prompt": "^1.3.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
